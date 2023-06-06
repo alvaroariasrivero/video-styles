@@ -1,0 +1,14 @@
+.video-reproducer video::-webkit-media-controls-mute-button,
+.video-reproducer video::-webkit-media-controls-volume-slider,
+.video-reproducer video::-webkit-media-controls-volume-control-hover-background,
+.video-reproducer video::-webkit-media-controls-current-time-display,
+.video-reproducer video::-webkit-media-controls-time-remaining-display,
+.video-reproducer video::-webkit-media-controls-fullscreen-button,
+.video-reproducer video::-webkit-media-controlslist,
+.video-reproducer video::-webkit-media-controls-play-button{
+    display: block;
+}
+
+.video-reproducer video::-moz-range-thumb{
+    display: none;
+}
